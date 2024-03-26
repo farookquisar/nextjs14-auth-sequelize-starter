@@ -35,7 +35,7 @@ export async function seedUsers() {
 	const user3 = await User.create({
 		firstName: 'Next',
 		lastName: 'User',
-		email: 'user@nextmail.com',
+		email: 'farook@example.com',
 		phone: '(555) 555-5556',
 		password: 'jyhnuz-qaXnis-3vydfo', // the kind an idiot would have on his luggage
 		avatar: 'https://cdn.designly.biz/fake-user/jane.jpg',
