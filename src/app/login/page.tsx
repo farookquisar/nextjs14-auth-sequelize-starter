@@ -117,7 +117,7 @@ export default function LoginPage() {
 							<span className="label-text">Password</span>
 						</label>
 						<input
-							defaultValue="12345"
+							defaultValue=""
 							type="password"
 							ref={passwordRef}
 							className="input input-bordered"
