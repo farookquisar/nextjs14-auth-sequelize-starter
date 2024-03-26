@@ -36,7 +36,7 @@ export async function seedUsers() {
 		firstName: 'Next',
 		lastName: 'User',
 		email: 'farook@example.com',
-		phone: '(555) 555-5556',
+		phone: '(555) 555-6789',
 		password: 'jyhnuz-qaXnis-3vydfoNext', // the kind an idiot would have on his luggage
 		avatar: 'https://cdn.designly.biz/fake-user/jane.jpg',
 		role: 'customer',
