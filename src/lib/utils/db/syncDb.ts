@@ -43,6 +43,5 @@ export async function seedUsers() {
 		status: 'active',
 	});
 
-
-	return [user1,user2,user3];
+	return [user1, user2, user3];
 }
