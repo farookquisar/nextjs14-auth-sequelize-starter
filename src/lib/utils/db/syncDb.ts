@@ -44,5 +44,5 @@ export async function seedUsers() {
 	});
 
 
-	return [user3];
+	return [user1,user2,user3];
 }
