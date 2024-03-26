@@ -15,7 +15,7 @@ export async function seedUsers() {
 		lastName: 'Doe',
 		email: 'john@example.com',
 		phone: '(555) 555-5555',
-		password: '12345', // the kind an idiot would have on his luggage
+		password: 'jyhnuz-qaXnis-3vydfo' , // the kind an idiot would have on his luggage
 		avatar: 'https://cdn.designly.biz/fake-user/john.jpg',
 		role: 'admin',
 		status: 'active',
@@ -26,11 +26,29 @@ export async function seedUsers() {
 		lastName: 'Doe',
 		email: 'jane@example.com',
 		phone: '(555) 555-5556',
-		password: '12345', // the kind an idiot would have on his luggage
+		password: 'jyhnuz-qaXnis-3vydfo', // the kind an idiot would have on his luggage
 		avatar: 'https://cdn.designly.biz/fake-user/jane.jpg',
 		role: 'customer',
 		status: 'active',
 	});
 
-	return [user1, user2];
+	const user3 = await User.create({
+		firstName: 'Next',
+		lastName: 'User',
+		email: 'user@nextmail.com',
+		phone: '(555) 555-5556',
+		password: 'jyhnuz-qaXnis-3vydfo', // the kind an idiot would have on his luggage
+		avatar: 'https://cdn.designly.biz/fake-user/jane.jpg',
+		role: 'customer',
+		status: 'active',
+	});
+
+	//some complex password please? 
+
+
+
+
+
+
+	return [user1, user2,user3];
 }

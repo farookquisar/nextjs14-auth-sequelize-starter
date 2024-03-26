@@ -1,3 +1,6 @@
+to Create Table and Seed (Insert Data) : https://nextjs14-auth-sequelize-starter.vercel.app/dev/db
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Next.js 14 Auth + Sequelize Starter
 
 This is a starter boilerplate for Next.js 14. It had everything you need to kickstart an app with full authentication.
